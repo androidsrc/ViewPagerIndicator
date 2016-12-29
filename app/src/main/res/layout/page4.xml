@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B0C4DE"
+    android:gravity="center" >
+
+    <Button
+        android:id="@+id/start"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="#239232"
+        android:padding="20dp"
+        android:text="Let&apos;s Go"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

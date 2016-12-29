@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2F4F4F"
+    android:gravity="center" >
+
+    <Button
+        android:id="@+id/email_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@android:color/darker_gray"
+        android:padding="20dp"
+        android:text="Sign up with your Email"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/fb_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email_id"
+        android:layout_margin="30dp"
+        android:background="#4682B4"
+        android:padding="20dp"
+        android:text="Sign up with Facebook"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/plus_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fb_id"
+        android:layout_margin="30dp"
+        android:background="@android:color/holo_red_dark"
+        android:padding="20dp"
+        android:text="Sign up with Google+"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
